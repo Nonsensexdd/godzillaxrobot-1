@@ -74,28 +74,33 @@ def get_readable_time(seconds: int) -> str:
 
 LUNA_IMG = "https://telegra.ph/file/29ce0085df966bcabd363.jpg"
 
+# pm start preview "https://te.legra.ph/file/123f51960d4878b09ff53.jpg"
+
 PM_START_TEXT = """
-**❄︎ 𝗛𝗲𝘆!, 𝗜 𝗮𝗺 𝐆𝐎𝐃𝐙𝐈𝐋𝐋𝐀 𝐗 𝐑𝐎𝐁𝐎𝐓** [ㅤ](https://te.legra.ph/file/123f51960d4878b09ff53.jpg)
-️️◁─ꔸꔸꔸꔸꔸꔸꔸꔸꔸꔸ❚❚ꔸꔸꔸꔸꔸꔸꔸꔸꔸꔸ─▷
-**𝗜'𝗺 𝗩𝗲𝗿𝘆 𝗽𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗠𝗮𝗻𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 nd 𝗧𝗿𝘂𝘀𝘁𝗲𝗱 𝗥𝗼𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗼𝘀𝗺 𝗺𝗼𝗱𝘂𝗹𝗲𝘀.♻️ ! !**
-️️●──────❚❚─────●
-☉ **𝗖𝗹𝗶𝗰𝗸 /help or !help 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗜𝗻𝗳𝗼.**
+❄︎Hᴇʏ, ɪ'ᴀᴍ <u>__Gᴏᴅᴢɪʟʟᴀ ʀᴏʙᴏᴛ__</u>\n
+<u>𝐀 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞 𝐫𝐨𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐜𝐚𝐧 𝐤𝐞𝐞𝐩 𝐬𝐞𝐜𝐮𝐫𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩\n
+𝐟𝐫𝐨𝐦 𝐰𝐫𝐨𝐧𝐠 𝐚𝐧𝐝 𝐟𝐫𝐨𝐮𝐝 𝐩𝐞𝐨𝐩𝐥𝐞;| (• ◡•)| </u>
+`----------------------------`
+<u>𝐀𝐝𝐝 𝐦𝐞 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 𝐛𝐮𝐭𝐭𝐨𝐧 𝐠𝐢𝐯𝐞𝐧\n𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞𝐝!!,
+𝐀𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐓𝐡𝐞 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐢𝐧 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭
+𝐉𝐮𝐬𝐭 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 ☞︎︎︎</u>  /help  <u> 𝐚𝐧𝐝 𝐞𝐱𝐩𝐥𝐨𝐫𝐞𝐫 𝐦𝐞 😇!!</u>
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add me To Your group ➕", url="http://t.me/godzilla_x_robot?startgroup=true"),
+        InlineKeyboardButton(text="♡︎𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁𝚂♡︎", callback_data="luna_credit"),
+        InlineKeyboardButton(
+            text="✩𝙰𝙱𝙾𝚄𝚃 𝙼𝙴✩", callback_data="luna_"
+        ),
     ],
     [
-        InlineKeyboardButton(text="About", callback_data="luna_"),
-        InlineKeyboardButton(
-            text="Music Player", callback_data="luna_basichelp"
-        ),
+        InlineKeyboardButton(text='♫︎𝙼𝚄𝚂𝙸𝙲', url="https://telegra.ph/%F0%9D%90%86%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%99%F0%9D%90%88%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%80-%F0%9D%90%8C%F0%9D%90%94%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82-03-11"),
+        InlineKeyboardButton(text='☘︎𝙷𝙴𝙻𝙿☘︎', callback_data="help_back"),
     ],
     [
         
         InlineKeyboardButton(
-            text="❓ Help&Commands", callback_data="help_back"),
+            text="♧︎︎︎𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴♧︎︎︎", url="http://t.me/godzilla_x_robot?startgroup=true"),
     ],
 ]
 
@@ -476,23 +481,19 @@ def luna_about_callback(update, context):
         )
     elif query.data == "luna_credit":
         query.message.edit_text(
-            text=f"<b> `Cʀᴇᴅɪᴛ Fᴏʀ Lᴜɴᴀ Dᴇᴠ's` </b>\n"
-            f"\nHᴇʀᴇ Sᴏᴍᴇ Dᴇᴠᴇʟᴏᴘᴇʀs Hᴇʟᴘɪɴɢ Iɴ Mᴀᴋɪɴɢ Tʜᴇ Lᴜɴᴀ",
+            text=f"<b> `𝐂𝐫𝐚𝐝𝐢𝐭 𝐅𝐨𝐫 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭 𝐃𝐞𝐯'𝐬` </b>\n"
+            f"\n𝐇𝐞𝐫𝐞 𝐒𝐨𝐦𝐞 𝐏𝐞𝐫𝐬𝐨𝐧𝐬 𝐖𝐡𝐨 𝐇𝐞𝐥𝐩𝐞𝐝 𝐓𝐨 𝐦𝐚𝐤𝐞 𝐅𝐮𝐥𝐥 𝐅𝐥𝐚𝐬𝐡𝐞𝐝 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭 𝐀𝐫𝐞::",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ajay", url="https://t.me/XXXTENTACION_forever"),
-                    InlineKeyboardButton(text="Nao", url="https://t.me/xgothboi"),
+                    InlineKeyboardButton(text="♕︎𝐎𝐰𝐧𝐞𝐫♕︎", url="https://t.me/XXXTENTACION_forever"),
+                    InlineKeyboardButton(text="✯Hʏᴘᴇʀ✯", url="https://t.me/HYPER_AD13"),
                  ],
                  [
-                    InlineKeyboardButton(text="Yui", url="https://t.me/Badboyanim"),
-                    InlineKeyboardButton(text="Luna", url="https://t.me/tdrki_1"),
+                    InlineKeyboardButton(text="Nᴜʟʟ Cᴏᴅᴇʀ", url="https://t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="Back", callback_data="luna_back"),
                  ],
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="luna_basichelp"),
-                 
-                 ]
                 ]
             ),
         )
