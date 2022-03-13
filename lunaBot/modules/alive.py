@@ -19,11 +19,11 @@ async def awake(event):
   xxx += f"🔴 **❄ ✘ 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : {pyrover}** \n\n"
   xxx += "**❄「𝗧𝗵𝗮𝗻𝘅𝘅 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴 𝗠𝗲 𝘀𝘂𝗿」❤️❄**"
   BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/godzilla_x_robot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/godzilla_chatting")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=godzilla,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, PHOTO, caption=xxx,  buttons=BUTTON)
 
 @MEMEK(pattern=("/reload"))
 async def reload(event):
   tai = event.sender.first_name
   LUNA = "✅ **bot restarted successfully**\n\n• Admin list has been **updated**"
   BUTTON = [[Button.url("📡 ᴜᴘᴅᴀᴛᴇs", "https://t.me/insane_bots")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=godzilla,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, PHOTO, caption=xxx,  buttons=BUTTON)
