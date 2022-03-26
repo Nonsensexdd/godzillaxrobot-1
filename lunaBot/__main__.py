@@ -77,12 +77,12 @@ LUNA_IMG = "https://telegra.ph/file/29ce0085df966bcabd363.jpg"
 # pm start preview "https://te.legra.ph/file/123f51960d4878b09ff53.jpg"
 
 PM_START_TEXT = """
-❄︎Hᴇʏ, ɪ'ᴀᴍ __Gᴏᴅᴢɪʟʟᴀ ʀᴏʙᴏᴛ__\n
+❄︎Hᴇʏ, ɪ'ᴀᴍ __OMFO ʀᴏʙᴏᴛ__\n
 𝐀 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞 𝐫𝐨𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐜𝐚𝐧 𝐤𝐞𝐞𝐩 𝐬𝐞𝐜𝐮𝐫𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩\n
 𝐟𝐫𝐨𝐦 𝐰𝐫𝐨𝐧𝐠 𝐚𝐧𝐝 𝐟𝐫𝐨𝐮𝐝 𝐩𝐞𝐨𝐩𝐥𝐞;| (• ◡•)!
 `----------------------------`
 𝐀𝐝𝐝 𝐦𝐞 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 𝐛𝐮𝐭𝐭𝐨𝐧 𝐠𝐢𝐯𝐞𝐧\n𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞𝐝!!,
-𝐀𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐓𝐡𝐞 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐢𝐧 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭,\n
+𝐀𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐓𝐡𝐞 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐢𝐧 OMFO 𝐑𝐨𝐛𝐨𝐭,\n
 𝐉𝐮𝐬𝐭 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 )) ☞︎︎︎ /help 𝐚𝐧𝐝 𝐞𝐱𝐩𝐥𝐨𝐫𝐞𝐫 𝐦𝐞 😇!!</u>
 """
 
@@ -100,7 +100,7 @@ buttons = [
     [
         
         InlineKeyboardButton(
-            text="♧︎︎︎𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴♧︎︎︎", url="http://t.me/godzilla_x_robot?startgroup=true"),
+            text="♧︎︎︎𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴♧︎︎︎", url="http://t.me/omfo_robot?startgroup=true"),
     ],
 ]
 
@@ -116,7 +116,7 @@ If you want to report any bugs or need any help with setting up Alina, reach us 
 
 
 DONATE_STRING = """𝐇𝐞𝐲, 𝐢𝐟 𝐮 𝐰𝐧𝐭 𝐭𝐨 𝐝𝐨𝐧𝐚𝐭𝐞 𝐭𝐡𝐞𝐧 𝐬𝐢𝐦𝐩𝐥𝐲 𝐣𝐨𝐢𝐧 𝐨𝐮𝐫 𝐬𝐮𝐩𝐩𝐨𝐫𝐭;
-𝐎𝐫 𝐔 𝐜𝐚𝐧 𝐝𝐨𝐧𝐚𝐭𝐞 [[𝐇𝐞𝐫𝐞❤︎](https://t.me/SILENT_DEVS)]
+𝐎𝐫 𝐔 𝐜𝐚𝐧 𝐝𝐨𝐧𝐚𝐭𝐞 [[𝐇𝐞𝐫𝐞❤︎](https://t.me/insane_bots)]
 """
 
 IMPORTED = {}
@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/omfo_chatting")]]
             ),
         )
         
@@ -481,7 +481,7 @@ def luna_about_callback(update, context):
         )
     elif query.data == "luna_credit":
         query.message.edit_text(
-            text=f"<b> `𝐂𝐫𝐚𝐝𝐢𝐭 𝐅𝐨𝐫 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭 𝐃𝐞𝐯'𝐬` </b>\n"
+            text=f"<b> `𝐂redit 𝐅𝐨𝐫 omfo 𝐃𝐞𝐯'𝐬` </b>\n"
             f"\n𝐇𝐞𝐫𝐞 𝐒𝐨𝐦𝐞 𝐏𝐞𝐫𝐬𝐨𝐧𝐬 𝐖𝐡𝐨 𝐇𝐞𝐥𝐩𝐞𝐝 𝐓𝐨 𝐦𝐚𝐤𝐞 𝐅𝐮𝐥𝐥 𝐅𝐥𝐚𝐬𝐡𝐞𝐝 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭 𝐀𝐫𝐞::",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -504,7 +504,7 @@ def luna_about_callback(update, context):
                  f"\nYou can add me to your group by clicking this link and selecting the chat.\n"
                  f"\nRead Admin Permissions and Anti-spam for basic info.\n"
                  f"\nRead Detailed Setup Guide to learn about setting up the bot in detail. (Recommended)\n"
-                 f"\nIf you do need help with further instructions feel free to ask in @godzilla_chatting.",
+                 f"\nIf you do need help with further instructions feel free to ask in @omfo_chatting.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -540,7 +540,7 @@ def luna_about_callback(update, context):
         query.message.edit_text(
             text=f"｢ Anti-Spam Settings 」\n"
                      f"\nAntispam: "
-                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @godzilla_chatting\n"
+                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @omfo_chatting\n"
                      f"\n✪ Anti-Flood allows you to keep your chat clean from flooding."
                      f"\n✪ With the help of Blaclists you can blacklist words,sentences and stickers which you don't want to be used by group members."
                      f"\n✪ By enabling Reports, admins get notified when users reports in chat."
@@ -589,7 +589,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/godzilla_chatting"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/omfo_chatting"),
                   ]
                 ]
             ),
