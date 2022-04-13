@@ -77,18 +77,18 @@ LUNA_IMG = "https://telegra.ph/file/29ce0085df966bcabd363.jpg"
 # pm start preview "https://te.legra.ph/file/123f51960d4878b09ff53.jpg"
 
 PM_START_TEXT = """
-❄︎Hᴇʏ, ɪ'ᴀᴍ __OMFO ʀᴏʙᴏᴛ__\n
+❄︎Hᴇʏ, ɪ'ᴀᴍ __𝗢ᴍғᴏ 𝗥ᴏʙᴏᴛ__\n
 𝐀 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞 𝐫𝐨𝐛𝐨𝐭 𝐰𝐡𝐢𝐜𝐡 𝐜𝐚𝐧 𝐤𝐞𝐞𝐩 𝐬𝐞𝐜𝐮𝐫𝐞 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩\n
 𝐟𝐫𝐨𝐦 𝐰𝐫𝐨𝐧𝐠 𝐚𝐧𝐝 𝐟𝐫𝐨𝐮𝐝 𝐩𝐞𝐨𝐩𝐥𝐞;| (• ◡•)!
 `----------------------------`
 𝐀𝐝𝐝 𝐦𝐞 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 𝐛𝐮𝐭𝐭𝐨𝐧 𝐠𝐢𝐯𝐞𝐧\n𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐟𝐮𝐥𝐥 𝐬𝐞𝐜𝐮𝐫𝐞𝐝!!,
-𝐀𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐓𝐡𝐞 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐢𝐧 OMFO 𝐑𝐨𝐛𝐨𝐭,\n
+𝐀𝐥𝐬𝐨 𝐜𝐡𝐞𝐜𝐤 𝐓𝐡𝐞 𝐦𝐨𝐝𝐮𝐥𝐞𝐬 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐢𝐧 𝗢ᴍғᴏ 𝐑𝐨𝐛𝐨𝐭,\n
 𝐉𝐮𝐬𝐭 𝐛𝐲 𝐜𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐨𝐧 )) ☞︎︎︎ /help 𝐚𝐧𝐝 𝐞𝐱𝐩𝐥𝐨𝐫𝐞𝐫 𝐦𝐞 😇!!</u>
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="♡︎𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁𝚂♡︎", callback_data="luna_credit"),
+        InlineKeyboardButton(text="❄︎𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁𝚂❄︎", callback_data="luna_credit"),
         InlineKeyboardButton(
             text="✩𝙰𝙱𝙾𝚄𝚃 𝙼𝙴✩", callback_data="luna_"
         ),
@@ -481,17 +481,17 @@ def luna_about_callback(update, context):
         )
     elif query.data == "luna_credit":
         query.message.edit_text(
-            text=f"<b> `𝐂redit 𝐅𝐨𝐫 omfo 𝐃𝐞𝐯'𝐬` </b>\n"
+            text=f"<b> `𝐂redit 𝐅𝐨𝐫 𝐎𝐌𝐅𝐎 𝐃𝐞𝐯'𝐬` </b>\n"
             f"\n𝐇𝐞𝐫𝐞 𝐒𝐨𝐦𝐞 𝐏𝐞𝐫𝐬𝐨𝐧𝐬 𝐖𝐡𝐨 𝐇𝐞𝐥𝐩𝐞𝐝 𝐓𝐨 𝐦𝐚𝐤𝐞 𝐅𝐮𝐥𝐥 𝐅𝐥𝐚𝐬𝐡𝐞𝐝 𝐆𝐨𝐝𝐳𝐢𝐥𝐥𝐚 𝐑𝐨𝐛𝐨𝐭 𝐀𝐫𝐞::",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="♕︎𝐎𝐰𝐧𝐞𝐫♕︎", url="https://t.me/XXXTENTACION_forever"),
-                    InlineKeyboardButton(text="✯Hʏᴘᴇʀ✯", url="https://t.me/HYPER_AD13"),
+                    InlineKeyboardButton(text="♕︎𝐎𝐰𝐧𝐞𝐫♕︎", url="https://t.me/THe_venom_xd"),
+                    InlineKeyboardButton(text="✯𝗫xxᴛᴇɴᴛᴀᴄɪᴏɴ✯", url="https://t.me/xxxtentacion_forever"),
                  ],
                  [
-                    InlineKeyboardButton(text="Nᴜʟʟ Cᴏᴅᴇʀ", url="https://t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="𝗣ɪʜᴜ", url="https://t.me/badvibe_only"),
                     InlineKeyboardButton(text="Back", callback_data="luna_back"),
                  ],
                 ]
