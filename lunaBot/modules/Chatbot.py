@@ -76,7 +76,7 @@ async def hmm(_, message):
             await lel.edit("godzilla ai already activated in this chat")
             return
         await lel.edit(
-            f"godzilla ai successfully added for users in the chat {message.chat.id}"
+            f"omfo ai successfully added for users in the chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -86,7 +86,7 @@ async def hmm(_, message):
             await lel.edit("godzilla ai was not activated in this chat")
             return
         await lel.edit(
-            f"godzilla ai successfully deactivated for users in the chat {message.chat.id}"
+            f"omfo ai successfully deactivated for users in the chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
