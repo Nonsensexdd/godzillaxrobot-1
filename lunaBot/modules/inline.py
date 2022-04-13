@@ -7,7 +7,7 @@ __mod_name__ = "Inline"
 __help__ = """
 commands can be used by anyone in a group via inline.
 
-Usage: @godzilla_x_robot <func> <query>"""
+Usage: @omfo_robot <func> <query>"""
 
 
 @app.on_inline_query()
