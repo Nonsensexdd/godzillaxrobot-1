@@ -9,7 +9,7 @@ from lunaBot.events import register
 from lunaBot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/ba62d1cd0445adea68cde.jpg"
+PHOTO = "https://telegra.ph/file/92f576b625e87f5cd7c7f.mp4"
 
 @register(pattern=("/alive"))
 async def awake(event):
